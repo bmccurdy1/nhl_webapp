@@ -1,0 +1,4 @@
+#!/bin/bash
+bluetoothctl << EOF
+connect FC:58:FA:B2:A5:85
+EOF
