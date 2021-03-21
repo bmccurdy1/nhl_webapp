@@ -10,8 +10,8 @@ templateData = {
 @app.route('/', methods=['GET','POST'])
 def index():
     if request.method == 'POST':
-        print("Play Horn!")
         goal.activate_experience()
+        print("Hello")
     return render_template("index.html", **templateData)
 
 if __name__ == '__main__':
